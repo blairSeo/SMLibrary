@@ -1,0 +1,16 @@
+PODS:
+  - SMLibrary (0.1.0)
+
+DEPENDENCIES:
+  - SMLibrary (from `../`)
+
+EXTERNAL SOURCES:
+  SMLibrary:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  SMLibrary: f56ac5ac783b008fde4c7f1431d9086249e5e5e3
+
+PODFILE CHECKSUM: 32d2a8a44f8a4047cdc139c76175fd3b9690398c
+
+COCOAPODS: 1.10.1

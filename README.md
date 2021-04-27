@@ -22,7 +22,7 @@ pod 'SMLibrary'
 
 ## Author
 
-blairSeo, sangmin@scenappsm.com
+blairSeo, blair.seo.0223@gmail.com
 
 ## License
 

@@ -1,0 +1,22 @@
+{
+  "name": "SMLibrary",
+  "version": "0.1.0",
+  "summary": "A short description of SMLibrary.",
+  "description": "TODO: Add long description of the pod here.",
+  "homepage": "https://github.com/blairSeo/SMLibrary",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "blairSeo": "sangmin@scenappsm.com"
+  },
+  "source": {
+    "git": "https://github.com/blairSeo/SMLibrary.git",
+    "tag": "0.1.0"
+  },
+  "platforms": {
+    "ios": "9.0"
+  },
+  "source_files": "SMLibrary/Classes/**/*"
+}
