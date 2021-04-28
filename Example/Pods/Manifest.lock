@@ -1,16 +1,24 @@
 PODS:
-  - SMLibrary (0.1.0)
+  - Alamofire (5.4.3)
+  - SMLibrary (0.2.0):
+    - Alamofire
 
 DEPENDENCIES:
+  - Alamofire
   - SMLibrary (from `../`)
+
+SPEC REPOS:
+  trunk:
+    - Alamofire
 
 EXTERNAL SOURCES:
   SMLibrary:
     :path: "../"
 
 SPEC CHECKSUMS:
-  SMLibrary: f56ac5ac783b008fde4c7f1431d9086249e5e5e3
+  Alamofire: e447a2774a40c996748296fa2c55112fdbbc42f9
+  SMLibrary: 140c2b69731b3ecc05ec6114a35d998c363e14e0
 
-PODFILE CHECKSUM: 32d2a8a44f8a4047cdc139c76175fd3b9690398c
+PODFILE CHECKSUM: 98f8bb7b5b788d127eb3821ebb15f33bd42a9a51
 
 COCOAPODS: 1.10.1
