@@ -27,7 +27,7 @@ public class Networking {
                 case .success(let data):
                     completion(.success(data))
                 case .failure(let error):
-                    ELog(error: error)
+                    ELog(error)
                     completion(.failure(error))
                 }
             }

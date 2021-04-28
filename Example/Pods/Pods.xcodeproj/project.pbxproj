@@ -220,7 +220,8 @@
 			children = (
 				85D58C4364359AF91CB61D2569EC6145 /* Log.swift */,
 			);
-			path = Utils;
+			name = Utils;
+			path = SMLibrary/Classes/Utils;
 			sourceTree = "<group>";
 		};
 		2EDB665118E2A6DEF521CAECF0B34DB2 /* Pods-SMLibrary_Example */ = {
