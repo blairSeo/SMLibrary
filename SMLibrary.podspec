@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'SMLibrary'
-  s.version          = '0.1.0'
+  s.version          = '0.2.0'
   s.summary          = 'iOS 개발 시 자주 사용한 기능 모음'
 
 # This description is used to generate tags and improve search results.
