@@ -1,22 +1,27 @@
 {
   "name": "SMLibrary",
-  "version": "0.1.0",
-  "summary": "A short description of SMLibrary.",
-  "description": "TODO: Add long description of the pod here.",
+  "version": "0.2.0",
+  "summary": "iOS 개발 시 자주 사용한 기능 모음",
+  "description": "iOS App 개발 시 자주 사용하는 기능들의 모았으며 지속적으로 추가할 예정입니다.",
   "homepage": "https://github.com/blairSeo/SMLibrary",
   "license": {
     "type": "MIT",
     "file": "LICENSE"
   },
   "authors": {
-    "blairSeo": "sangmin@scenappsm.com"
+    "blairSeo": "blair.seo.0223@gmail.com"
   },
   "source": {
     "git": "https://github.com/blairSeo/SMLibrary.git",
-    "tag": "0.1.0"
+    "tag": "0.2.0"
   },
   "platforms": {
-    "ios": "9.0"
+    "ios": "11.0"
   },
-  "source_files": "SMLibrary/Classes/**/*"
+  "source_files": "SMLibrary/Classes/**/*",
+  "dependencies": {
+    "Alamofire": [
+
+    ]
+  }
 }
