@@ -1,6 +1,6 @@
 {
   "name": "SMLibrary",
-  "version": "0.2.0",
+  "version": "0.2.2",
   "summary": "iOS 개발 시 자주 사용한 기능 모음",
   "description": "iOS App 개발 시 자주 사용하는 기능들의 모았으며 지속적으로 추가할 예정입니다.",
   "homepage": "https://github.com/blairSeo/SMLibrary",
@@ -13,7 +13,7 @@
   },
   "source": {
     "git": "https://github.com/blairSeo/SMLibrary.git",
-    "tag": "0.2.0"
+    "tag": "0.2.2"
   },
   "platforms": {
     "ios": "11.0"
@@ -21,6 +21,9 @@
   "source_files": "SMLibrary/Classes/**/*",
   "dependencies": {
     "Alamofire": [
+
+    ],
+    "SwiftLint": [
 
     ]
   }

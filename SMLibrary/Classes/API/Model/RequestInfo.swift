@@ -45,7 +45,7 @@ public struct RequestInfo {
     /// 전달 값
     public var params: [String: Any]?
     
-    public init(headers: HTTPHeaders = [:], path: String, method: HTTPMethod = .get) {
+    public init(headers: HTTPHeaders = [:], path: String = "", method: HTTPMethod = .get) {
         self.headers = headers
         self.path = path
         self.method = method

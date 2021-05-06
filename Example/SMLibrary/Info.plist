@@ -35,5 +35,7 @@
 		<string>UIInterfaceOrientationPortrait</string>
 		<string>UIInterfaceOrientationLandscapeLeft</string>
 	</array>
+	<key>API_URL</key>
+	<string>https://www.google.com</string>
 </dict>
 </plist>

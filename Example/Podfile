@@ -5,6 +5,7 @@ platform :ios, '11.0'
 target 'SMLibrary_Example' do
   pod 'SMLibrary', :path => '../'
   pod 'Alamofire'
+  pod 'SwiftLint'
   
   target 'SMLibrary_Tests' do
     inherit! :search_paths

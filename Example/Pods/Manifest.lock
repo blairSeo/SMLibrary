@@ -1,15 +1,19 @@
 PODS:
   - Alamofire (5.4.3)
-  - SMLibrary (0.2.0):
+  - SMLibrary (0.2.2):
     - Alamofire
+    - SwiftLint
+  - SwiftLint (0.43.1)
 
 DEPENDENCIES:
   - Alamofire
   - SMLibrary (from `../`)
+  - SwiftLint
 
 SPEC REPOS:
   trunk:
     - Alamofire
+    - SwiftLint
 
 EXTERNAL SOURCES:
   SMLibrary:
@@ -17,8 +21,9 @@ EXTERNAL SOURCES:
 
 SPEC CHECKSUMS:
   Alamofire: e447a2774a40c996748296fa2c55112fdbbc42f9
-  SMLibrary: 140c2b69731b3ecc05ec6114a35d998c363e14e0
+  SMLibrary: 30dcc1aaaa190fcdeb1faec26118d8cc8ab82180
+  SwiftLint: 99f82d07b837b942dd563c668de129a03fc3fb52
 
-PODFILE CHECKSUM: 98f8bb7b5b788d127eb3821ebb15f33bd42a9a51
+PODFILE CHECKSUM: 0a9abf34081a63cc0b1fa26d4eb752fd1b74b313
 
 COCOAPODS: 1.10.1
