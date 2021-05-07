@@ -12,13 +12,13 @@ private func filename(_ path: String) -> String {
 }
 
 public func ELog(error: Error, file: String = #file, function: String = #function, line: Int = #line) {
-    print("🤬 [Error] \(filename(file))(\(line)):\n\(error.localizedDescription)\n")
+    print("🤬 [Error] \(filename(file))(\(line)):\t\(error.localizedDescription)\n")
 }
 
 public func ELog<T>(_ msg: T, file: String = #file, function: String = #function, line: Int = #line) {
-    print("🤬 [Error] \(filename(file))(\(line)):\n\(msg)\n")
+    print("🤬 [Error] \(filename(file))(\(line)):\t\(msg)\n")
 }
 
 public func ILog<T>(_ msg: T, file: String = #file, function: String = #function, line: Int = #line ) {
-    print("😀 [Info] \(filename(file))(\(line)):\n\(msg)\n")
+    print("😀 [Info] \(filename(file))(\(line)):\t\(msg)\n")
 }
