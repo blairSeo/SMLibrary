@@ -24,8 +24,8 @@ public class Mail: NSObject {
     /// 현재 presentedViewController
     private var presented: UIViewController? {
         get {
-            if let topController = UIApplication.shared.keyWindow?.rootViewController {
-                return topController.presentedViewController
+            if let window = UIApplication.shared.keyWindow {
+                return window.rootViewController
             }
             return nil
         }
@@ -49,14 +49,14 @@ public class Mail: NSObject {
                 return
             }
             
-            let composeVC = MFMailComposeViewController()
-            composeVC.mailComposeDelegate = self
-            
-            composeVC.setToRecipients(to)
-            composeVC.setSubject(subject ?? "")
-            composeVC.setMessageBody(msg ?? "", isHTML: false)
-            
             DispatchQueue.main.async {
+                let composeVC = MFMailComposeViewController()
+                composeVC.mailComposeDelegate = self
+                
+                composeVC.setToRecipients(to)
+                composeVC.setSubject(subject ?? "")
+                composeVC.setMessageBody(msg ?? "", isHTML: false)
+                
                 self.presented?.present(composeVC, animated: true, completion: nil)
             }
         }
