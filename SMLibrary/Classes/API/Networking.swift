@@ -9,53 +9,50 @@ import Alamofire
 
 public class Networking {
     
-    /// API 요청 (Decodable)
-    ///
-    /// - Parameters:
-    ///   - type: Decodable 객체 타입
-    ///   - info: 요청 정보
-    ///   - completion: 응답결과 반환
-    ///     - Decodable 객체
-    ///     - Error
-    public static func request<T: Decodable>(of type: T.Type, info: RequestInfo, completion: @escaping (Result<T, Error>) -> Void) {
-        AF
-            .request(info.address,
-                   method: info.method,
-                   parameters: info.params,
-                   headers: info.headers)
-            .responseDecodable(of: type) { (response) in
-                switch response.result {
-                case .success(let data):
-                    completion(.success(data))
-                case .failure(let error):
-                    ELog(error)
-                    completion(.failure(error))
-                }
-            }
+    private let queue = DispatchQueue(label: "SMlibrary.Network", qos: .utility, attributes: .concurrent)
+
+    /**
+     API 공통 요청
+     
+     - Parameter info: 요청 정보
+     - Returns: __DataRequest__
+     */
+    private func request(info: RequestInfo) -> DataRequest {
+        return AF
+            .request(info.address, method: info.method, parameters: info.params, headers: info.headers, interceptor: Interceptor())
+            .validate(statusCode: 200..<300)
+            .validate(contentType: ["application/json"])
     }
     
-    /// API 요청 (Data)
-    ///
-    /// - Parameters:
-    ///   - info: 요청 정보
-    ///   - completion: 응답결과 반환
-    ///     - Data 객체
-    ///     - Error
-    public static func request(info: RequestInfo, completion: @escaping (Result<Data, Error>) -> Void) {
-        AF
-            .request(info.address,
-                     method: info.method,
-                     parameters: info.params,
-                     headers: info.headers)
-            .responseData { (response) in
-                switch response.result {
-                case .success(let data):
-                    completion(.success(data))
-                case .failure(let error):
-                    ELog(error)
-                    completion(.failure(error))
-                }
-            }
+    /**
+     모든 요청 취소
+     */
+    public func allCancel() {
+        AF.cancelAllRequests()
+    }
+    
+    /**
+     API 응답 __Decodable__
+     
+     - Parameters:
+        - type: __Decodable__
+        - info: 요청 정보
+     - Parameter completionHandler:
+     - Parameter response: __AFDataResponse<T>__
+     */
+    public func resDecodable<T: Decodable>(of type: T.Type = T.self, info: RequestInfo, completionHandler: @escaping (_ response: AFDataResponse<T>) -> Void) {
+        self.request(info: info).responseDecodable(of: type, queue: self.queue, completionHandler: completionHandler)
+    }
+    
+    /**
+     API 응답 __Data__
+     
+     - Parameter info: 요청정보
+     - Parameter completionHandler:
+     - Parameter response: __AFDataResponse<Data>__
+     */
+    public func resData(info: RequestInfo, completionHandler: @escaping (_ response: AFDataResponse<Data>) -> Void) {
+        self.request(info: info).responseData(queue: self.queue, completionHandler: completionHandler)
     }
 }
 

@@ -7,42 +7,57 @@
 import Foundation
 import Alamofire
 
+/**
+ API 요청 정보
+ */
 public struct RequestInfo {
     
-    /// API 요청 도메인
-    public let domain: String? = {
-        guard let domain = Bundle.main.infoDictionary?["API_URL"] as? String else {
+    /**
+     도메인
+     */
+    public let baseURL: String? = {
+        guard let url = Bundle.main.infoDictionary?["API_URL"] as? String else {
             ELog(error: NetworkError.unknownDomain)
             return nil
         }
         
-        return domain
+        return url
     }()
     
-    /// API 요청 헤더
+    /**
+     헤더
+     */
     public var headers: HTTPHeaders
     
-    /// API 요청 주소
+    /**
+     경로가 포함된 주소
+     */
     public var address: String {
         get {
-            guard let domain = self.domain else { return "" }
+            guard let url = self.baseURL else { return "" }
             
             var path = self.path
             if !path.hasPrefix("/") {
                 path.insert("/", at: path.startIndex)
             }
                         
-            return String(format: "%@%@", domain, path)
+            return String(format: "%@%@", url, path)
         }
     }
     
-    /// API 요청 경로
+    /**
+     경로
+     */
     public var path: String
     
-    /// HTTPMethod 타입
+    /**
+     method 타입
+     */
     public var method: HTTPMethod
     
-    /// 전달 값
+    /**
+     전달 데이타
+     */
     public var params: [String: Any]?
     
     public init(headers: HTTPHeaders = [:], path: String = "", method: HTTPMethod = .get) {

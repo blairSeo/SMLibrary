@@ -7,18 +7,28 @@
 import Foundation
 import MessageUI
 
-/// 메일 전송결과 정보
+/**
+ 메일 전송결과 정보
+ */
 public enum MailResult: Int {
-    /// 취소
+    /**
+     취소
+     */
     case cancelled = 0
     
-    /// 저장
+    /**
+     저장
+     */
     case saved
     
-    /// 성공
+    /**
+     성공
+     */
     case sent
     
-    /// 실패
+    /**
+     실패
+     */
     case failed
     
     public init(value: MFMailComposeResult) {

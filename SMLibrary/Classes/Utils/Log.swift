@@ -6,19 +6,51 @@
 
 import Foundation
 
+/**
+ 파일 이름
+ 
+ - Parameter path: 파일 경로
+ */
 private func filename(_ path: String) -> String {
     guard let filename = path.split(separator: "/").last else { return path }
     return String(filename)
 }
 
+/**
+ 에러 Log 출력
+ 
+ - Parameters:
+    - error: Error 객체
+    - file: 파일 경로
+    - function: 함수 이름
+    - ilne: 줄 번호
+ */
 public func ELog(error: Error, file: String = #file, function: String = #function, line: Int = #line) {
-    print("🤬 [Error] \(filename(file))(\(line)):\t\(error.localizedDescription)\n")
+    print("🤬 [Error] \(filename(file))(\(line)): \(error.localizedDescription)\n")
 }
 
+/**
+ 에러 Log 출력
+ 
+ - Parameters:
+    - msg: Generics 객체
+    - file: 파일 경로
+    - function: 함수 이름
+    - ilne: 줄 번호
+ */
 public func ELog<T>(_ msg: T, file: String = #file, function: String = #function, line: Int = #line) {
-    print("🤬 [Error] \(filename(file))(\(line)):\t\(msg)\n")
+    print("🤬 [Error] \(filename(file))(\(line)): \(msg)\n")
 }
 
+/**
+ 안내 Log 출력
+ 
+ - Parameters:
+    - msg: Generics 객체
+    - file: 파일 경로
+    - function: 함수 이름
+    - ilne: 줄 번호
+ */
 public func ILog<T>(_ msg: T, file: String = #file, function: String = #function, line: Int = #line ) {
-    print("😀 [Info] \(filename(file))(\(line)):\t\(msg)\n")
+    print("😀 [Info] \(filename(file))(\(line)): \(msg)\n")
 }

@@ -9,11 +9,13 @@ import MessageUI
 
 public protocol MailDelegate: NSObjectProtocol {
     
-    /// 메일 전송 결과
-    ///
-    /// - Parameters:
-    ///   - result: 전송결과 정보
-    ///   - error: 에러 정보
+    /**
+     메일 전송 결과
+     
+     - Parameters:
+        - result: 전송결과 정보
+        - error: 에러 정보
+     */
     func mail(didFinishWith result: MailResult, error: Error?)
 }
 
@@ -21,7 +23,9 @@ public class Mail: NSObject {
     
     public weak var delegate: MailDelegate?
     
-    /// 현재 presentedViewController
+    /**
+     현재  ViewController
+     */
     private var presented: UIViewController? {
         get {
             if let window = UIApplication.shared.keyWindow {
@@ -31,17 +35,21 @@ public class Mail: NSObject {
         }
     }
     
-    /// 메일 전송 가능 여부
+    /**
+     메일 전송 가능 여부
+     */
     private func canSendMail() -> Bool {
         return MFMailComposeViewController.canSendMail()
     }
     
-    /// 메일 전송
-    ///
-    /// - Parameters:
-    ///   - to: 전송 할 메일 주소 목록
-    ///   - subject: Title
-    ///   - msg: Content
+    /**
+     메일 전송
+     
+     - Parameters:
+        - to: 전송 할 메일 주소 목록
+        - subject: Title
+        - msg: Content
+     */
     public func sendMail(_ to: [String], subject: String?, message msg: String?) {
         DispatchQueue.global().async {
             guard self.canSendMail() else {
