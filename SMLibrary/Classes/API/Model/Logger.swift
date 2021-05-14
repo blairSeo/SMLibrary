@@ -28,7 +28,7 @@ class Logger: EventMonitor {
             let json = try JSONSerialization.data(withJSONObject: object, options: .prettyPrinted)
             let str = String(data: json, encoding: .utf8)
             
-            ILog(str)
+            ILog(str ?? "nil")
         } catch let error {
             let str = String(data: data, encoding: .utf8)
             ELog("Not JSON Format!\nResponse Data: \(str)\nDescription: \(error.localizedDescription)\n")
