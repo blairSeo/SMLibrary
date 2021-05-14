@@ -4,6 +4,7 @@
 [![Version](https://img.shields.io/cocoapods/v/SMLibrary.svg?style=flat)](https://cocoapods.org/pods/SMLibrary)
 [![License](https://img.shields.io/cocoapods/l/SMLibrary.svg?style=flat)](https://cocoapods.org/pods/SMLibrary)
 [![Platform](https://img.shields.io/cocoapods/p/SMLibrary.svg?style=flat)](https://cocoapods.org/pods/SMLibrary)
+[![Gmail Badge](https://img.shields.io/badge/Gmail-d14836?style=flat-square&logo=Gmail&logoColor=white&link=mailto:blair.seo.0223@gmail.com)](mailto:blair.seo.0223@gmail.com)
 
 ## Example
 
