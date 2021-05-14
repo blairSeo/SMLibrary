@@ -17,4 +17,16 @@ class Interceptor: RequestInterceptor {
         
         completion(.success(urlRequest))
     }
+    
+    func retry(_ request: Request, for session: Session, dueTo error: Error, completion: @escaping (RetryResult) -> Void) {
+        if let response = request.task?.response as? HTTPURLResponse,
+           (200..<300) ~= response.statusCode
+        {
+            completion(.retry)
+        } else {
+            ELog(error: error)
+            completion(.doNotRetry)
+        }
+        
+    }
 }

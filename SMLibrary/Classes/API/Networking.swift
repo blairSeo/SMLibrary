@@ -9,8 +9,16 @@ import Alamofire
 
 public class Networking {
     
-    private let queue = DispatchQueue(label: "SMlibrary.Network", qos: .utility, attributes: .concurrent)
-
+    private let session: Session
+    
+    required public init(_ config: URLSessionConfiguration = .default) {
+        let rootQueue = DispatchQueue(label: "SMlibrary.Network", qos: .utility)
+        let interceptor = Interceptor()
+        let monitor = Logger()
+                
+        self.session = Session(configuration: config, rootQueue: rootQueue, interceptor: interceptor, eventMonitors: [monitor])
+    }
+    
     /**
      API 공통 요청
      
@@ -18,7 +26,7 @@ public class Networking {
      - Returns: __DataRequest__
      */
     private func request(info: RequestInfo) -> DataRequest {
-        return AF
+        return self.session
             .request(info.address, method: info.method, parameters: info.params, headers: info.headers, interceptor: Interceptor())
             .validate(statusCode: 200..<300)
             .validate(contentType: ["application/json"])
@@ -28,7 +36,7 @@ public class Networking {
      모든 요청 취소
      */
     public func allCancel() {
-        AF.cancelAllRequests()
+        self.session.cancelAllRequests()
     }
     
     /**
@@ -41,7 +49,7 @@ public class Networking {
      - Parameter response: __AFDataResponse<T>__
      */
     public func resDecodable<T: Decodable>(of type: T.Type = T.self, info: RequestInfo, completionHandler: @escaping (_ response: AFDataResponse<T>) -> Void) {
-        self.request(info: info).responseDecodable(of: type, queue: self.queue, completionHandler: completionHandler)
+        self.request(info: info).responseDecodable(of: type, completionHandler: completionHandler)
     }
     
     /**
@@ -52,7 +60,7 @@ public class Networking {
      - Parameter response: __AFDataResponse<Data>__
      */
     public func resData(info: RequestInfo, completionHandler: @escaping (_ response: AFDataResponse<Data>) -> Void) {
-        self.request(info: info).responseData(queue: self.queue, completionHandler: completionHandler)
+        self.request(info: info).responseData(completionHandler: completionHandler)
     }
 }
 

@@ -10,13 +10,21 @@ import Alamofire
 
 class Logger: EventMonitor {
     
-    var queue: DispatchQueue = DispatchQueue(label: "SMlibrary.Network.Logger", qos: .background, attributes: .concurrent)
+    var queue: DispatchQueue = DispatchQueue(label: "SMlibrary.Network.Logger", qos: .background)
     
     func requestDidFinish(_ request: Request) {
         ILog(request.description)
     }
     
-    func request(_ request: DataRequest, didParseResponse response: DataResponse<Data?, AFError>) {
+    func requestDidResume(_ request: Request) {
+        ILog(request.description)
+    }
+    
+    func requestDidCancel(_ request: Request) {
+        ILog(request.description)
+    }
+    
+    func request<Value>(_ request: DataRequest, didParseResponse response: DataResponse<Value, AFError>) {
         guard let data = response.data else { return }
         
         if let json = try? JSONSerialization.jsonObject(with: data, options: .mutableContainers) {
