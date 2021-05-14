@@ -60,15 +60,15 @@ public struct RequestInfo {
      */
     public var params: [String: Any]?
     
-    public init(headers: HTTPHeaders = [:], path: String = "", method: HTTPMethod = .get) {
-        self.headers = headers
+    public init(headers: [String: String] = [:], path: String = "", method: HTTPMethod = .get) {
+        self.headers = HTTPHeaders(headers)
         self.path = path
         self.method = method
         self.params = nil
     }
     
-    public init<T: Encodable>(headers: HTTPHeaders = [:], path: String, method: HTTPMethod = .get, params: T?) {
-        self.headers = headers
+    public init<T: Encodable>(headers: [String: String] = [:], path: String, method: HTTPMethod = .get, params: T?) {
+        self.headers = HTTPHeaders(headers)
         self.path = path
         self.method = method
         

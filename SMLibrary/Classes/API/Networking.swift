@@ -9,14 +9,14 @@ import Alamofire
 
 public class Networking {
     
-    private let session: Session
+    public static let shared = Networking()
+    private var session = Session()
     
-    required public init(_ config: URLSessionConfiguration = .default) {
+    public func setSession(_ config: URLSessionConfiguration = .default) {
         let rootQueue = DispatchQueue(label: "SMlibrary.Network", qos: .utility)
-        let interceptor = Interceptor()
         let monitor = Logger()
-                
-        self.session = Session(configuration: config, rootQueue: rootQueue, interceptor: interceptor, eventMonitors: [monitor])
+        
+        self.session = Session(configuration: config, rootQueue: rootQueue, eventMonitors: [monitor])
     }
     
     /**

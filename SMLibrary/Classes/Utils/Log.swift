@@ -26,7 +26,7 @@ private func filename(_ path: String) -> String {
     - ilne: 줄 번호
  */
 public func ELog(error: Error, file: String = #file, function: String = #function, line: Int = #line) {
-    print("🤬 [Error] \(filename(file))(\(line)): \(error.localizedDescription)\n")
+    print("🤯\t[\(filename(file))]\t\(function)(\(line)): \(error.localizedDescription)\n")
 }
 
 /**
@@ -39,7 +39,7 @@ public func ELog(error: Error, file: String = #file, function: String = #functio
     - ilne: 줄 번호
  */
 public func ELog<T>(_ msg: T, file: String = #file, function: String = #function, line: Int = #line) {
-    print("🤬 [Error] \(filename(file))(\(line)): \(msg)\n")
+    print("🤯\t[\(filename(file))]\t\(function)(\(line)): \(msg)\n")
 }
 
 /**
@@ -52,5 +52,5 @@ public func ELog<T>(_ msg: T, file: String = #file, function: String = #function
     - ilne: 줄 번호
  */
 public func ILog<T>(_ msg: T, file: String = #file, function: String = #function, line: Int = #line ) {
-    print("😀 [Info] \(filename(file))(\(line)): \(msg)\n")
+    print("📝\t[\(filename(file))]\t\(function)(\(line)): \(msg)\n")
 }
