@@ -30,7 +30,7 @@ class Logger: EventMonitor {
             
             ILog(str ?? "nil")
         } catch let error {
-            let str = String(data: data, encoding: .utf8)
+            let str = String(data: data, encoding: .utf8) ?? "nil"
             ELog("Not JSON Format!\nResponse Data: \(str)\nDescription: \(error.localizedDescription)\n")
         }
     }
