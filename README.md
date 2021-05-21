@@ -8,7 +8,7 @@
 
 ## Features
 
-[Documentation](https://blairseo.github.io)
+[Documentation](https://blairseo.github.io/SMLibrary/)
 
 
 ## Installation
