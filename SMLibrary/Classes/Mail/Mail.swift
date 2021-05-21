@@ -7,6 +7,7 @@
 import Foundation
 import MessageUI
 
+/// 메일 관련 기능 위임자
 public protocol MailDelegate: NSObjectProtocol {
     
     /**
@@ -19,13 +20,13 @@ public protocol MailDelegate: NSObjectProtocol {
     func mail(didFinishWith result: MailResult, error: Error?)
 }
 
+/// 메일 관련 기능
 public class Mail: NSObject {
     
+    /// MailDelegate
     public weak var delegate: MailDelegate?
-    
-    /**
-     현재  ViewController
-     */
+
+    /// 현재  보여지는 ViewController
     private var presented: UIViewController? {
         get {
             if let window = UIApplication.shared.keyWindow {
@@ -34,10 +35,8 @@ public class Mail: NSObject {
             return nil
         }
     }
-    
-    /**
-     메일 전송 가능 여부
-     */
+
+    /// 메일 전송 가능 여부
     private func canSendMail() -> Bool {
         return MFMailComposeViewController.canSendMail()
     }
@@ -73,7 +72,7 @@ public class Mail: NSObject {
 
 extension Mail: MFMailComposeViewControllerDelegate {
     
-    public func mailComposeController(_ controller: MFMailComposeViewController, didFinishWith result: MFMailComposeResult, error: Error?) {
+    private func mailComposeController(_ controller: MFMailComposeViewController, didFinishWith result: MFMailComposeResult, error: Error?) {
         DispatchQueue.main.async {
             controller.dismiss(animated: true) { [weak self] in
                 self?.delegate?.mail(didFinishWith: MailResult(value: result), error: error)

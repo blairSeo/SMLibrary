@@ -6,22 +6,13 @@
 
 import Foundation
 
-/**
- 네트워크 에러
- */
-public enum NetworkError: Error {
+/// 네트워크 에러
+public enum NetworkError: LocalizedError {
     
-    /**
-     도메인을 알 수 없음
-     */
+    /// 도메인을 알 수 없음
     case unknownDomain
-}
-
-extension NetworkError: LocalizedError {
     
-    /**
-     네트워크 에러의 설명
-     */
+    /// 네트워크 에러의 설명
     public var errorDescription: String? {
         get {
             switch self {

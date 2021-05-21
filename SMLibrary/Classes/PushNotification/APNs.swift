@@ -6,24 +6,29 @@
 
 import Foundation
 
+/// Apple Push Notification Service 관련 기능
 open class APNs: NSObject {
     
-    /// 알림설정 정보 조회
-    ///
-    /// - Parameter completion: 알림설정 정보 Closure
-    ///     - UNNotificationSettings
-    public static func authorizationStatus(completion: @escaping (UNNotificationSettings) -> Void) {
+    /**
+     알림설정 정보 조회
+     
+     - Parameter completion: 현재 알림설정 정보를 조회 후 호출하는 블럭이며, 알림설정 정보를 반환
+     - Parameter setting: [UNNotificationSettings](https://developer.apple.com/documentation/usernotifications/unnotificationsettings)
+     */
+    public static func authorizationStatus(completion: @escaping (_ setting: UNNotificationSettings) -> Void) {
         unowned let current = UNUserNotificationCenter.current()
         current.getNotificationSettings { settings in
             completion(settings)
         }
     }
     
-    /// Remote APNs 등록
-    ///
-    /// - Parameters:
-    ///   - application: UIApplication
-    ///   - options: 권한요청 옵션
+    /**
+     Remote APNs 등록
+     
+     - Parameters:
+        - application: [UIApplication](https://developer.apple.com/documentation/uikit/uiapplication)
+        - options: 권한요청 옵션
+     */
     public func registerRemoteAPNs(application: UIApplication, add options: UNAuthorizationOptions = []) {
         DispatchQueue.global().async {
             unowned let current = UNUserNotificationCenter.current()
@@ -70,8 +75,7 @@ open class APNs: NSObject {
 
 extension APNs: UNUserNotificationCenterDelegate {
     
-    /// App이 실행 중일 때 Notification 핸들링 부분
-    public func userNotificationCenter(_ center: UNUserNotificationCenter, willPresent notification: UNNotification, withCompletionHandler completionHandler: @escaping (UNNotificationPresentationOptions) -> Void) {
+    private func userNotificationCenter(_ center: UNUserNotificationCenter, willPresent notification: UNNotification, withCompletionHandler completionHandler: @escaping (UNNotificationPresentationOptions) -> Void) {
         
         let request = notification.request
         ILog(request)
@@ -79,17 +83,14 @@ extension APNs: UNUserNotificationCenterDelegate {
         completionHandler([.sound])
     }
     
-    /// App이 종료 중일 때 Notification 핸들링 부분
-    public func userNotificationCenter(_ center: UNUserNotificationCenter, didReceive response: UNNotificationResponse, withCompletionHandler completionHandler: @escaping () -> Void) {
+    private func userNotificationCenter(_ center: UNUserNotificationCenter, didReceive response: UNNotificationResponse, withCompletionHandler completionHandler: @escaping () -> Void) {
         
         ILog(response)
         
         completionHandler()
     }
     
-    /// In-App Notification설정
-    /// 잠금화면 > [Swipe를 통해]App의 알림관리 > 알림설정
-    public func userNotificationCenter(_ center: UNUserNotificationCenter, openSettingsFor notification: UNNotification?) {
+    private func userNotificationCenter(_ center: UNUserNotificationCenter, openSettingsFor notification: UNNotification?) {
         ILog("")
     }
 }

@@ -26,9 +26,8 @@ extension Date {
      현재 성인여부 조회
      
      - Parameter input: 입력 날짜
-     - Parameter completion
-     - Parameter isAdult: 성인여부
-     - Returns: 성인 여부
+     - Parameter completion: 성인 여부를 반환
+     - Parameter isAdult: Bool
      */
     public func chkAdultAge(date input: Date, completion: @escaping (_ isAdult: Bool) -> Void) {
         guard let year = Calendar.current.dateComponents([.year], from: input, to: Date()).year else { return }

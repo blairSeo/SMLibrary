@@ -8,32 +8,25 @@
 import Foundation
 import Alamofire
 
-/**
- 네트워크 연결 상태
- */
-public enum ConnectStatus: CustomStringConvertible {  
-    /**
-     미 연결
-     */
-    case disconnect
+/// 네트워크 연결 상태
+public enum ConnectStatus: CustomStringConvertible {
     
+    /// 미 연결
+    case disconnect
+
     /**
-     연결 (__ConnectType__)
+     연결
+     
+     - Returns: 네트워크 종류 반환
      */
     case connect(ConnectType)
     
-    /**
-     연결된 네트워크 종류
-     */
+    /// 연결된 네트워크 종류
     public enum ConnectType {
-        /**
-         WIFI
-         */
+        /// WIFI
         case wifi
         
-        /**
-         Cellular
-         */
+        /// Cellular
         case cellular
         
         init(_ status: NetworkReachabilityManager.NetworkReachabilityStatus.ConnectionType) {
@@ -46,9 +39,7 @@ public enum ConnectStatus: CustomStringConvertible {
         }
     }
     
-    /**
-     연결 상태의 설명
-     */
+    /// 연결 상태의 설명
     public var description: String {
         get {
             switch self {

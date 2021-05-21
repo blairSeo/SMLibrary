@@ -23,7 +23,7 @@ private func filename(_ path: String) -> String {
     - error: Error 객체
     - file: 파일 경로
     - function: 함수 이름
-    - ilne: 줄 번호
+    - line: 줄 번호
  */
 public func ELog(error: Error, file: String = #file, function: String = #function, line: Int = #line) {
     print("🤯\t[\(filename(file))]\t\(function)(\(line)): \(error.localizedDescription)\n")
@@ -36,7 +36,7 @@ public func ELog(error: Error, file: String = #file, function: String = #functio
     - msg: Generics 객체
     - file: 파일 경로
     - function: 함수 이름
-    - ilne: 줄 번호
+    - line: 줄 번호
  */
 public func ELog<T>(_ msg: T, file: String = #file, function: String = #function, line: Int = #line) {
     print("🤯\t[\(filename(file))]\t\(function)(\(line)): \(msg)\n")
@@ -49,7 +49,7 @@ public func ELog<T>(_ msg: T, file: String = #file, function: String = #function
     - msg: Generics 객체
     - file: 파일 경로
     - function: 함수 이름
-    - ilne: 줄 번호
+    - line: 줄 번호
  */
 public func ILog<T>(_ msg: T, file: String = #file, function: String = #function, line: Int = #line ) {
     print("📝\t[\(filename(file))]\t\(function)(\(line)): \(msg)\n")
