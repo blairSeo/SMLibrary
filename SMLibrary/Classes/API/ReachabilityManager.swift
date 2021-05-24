@@ -45,7 +45,7 @@ public class ReachabilityManager {
      */
     public func startListening(completionHandler: @escaping (_ status: ConnectStatus) -> Void) {
         guard let manager = self.manager else {
-            ELog("Alamofire >> NetworkReachabilityManager를 확인 해 주세요.")
+            ELog(msg: "Alamofire >> NetworkReachabilityManager를 확인 해 주세요.")
             return
         }
         
@@ -69,7 +69,7 @@ public class ReachabilityManager {
     /// 네트워크 상태 Stop Listener
     public func stopListening() {
         guard let manager = self.manager else {
-            ELog("Alamofire >> NetworkReachabilityManager를 확인 해 주세요.")
+            ELog(msg: "Alamofire >> NetworkReachabilityManager를 확인 해 주세요.")
             return
         }
         

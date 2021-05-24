@@ -1,6 +1,6 @@
 PODS:
   - Alamofire (5.4.3)
-  - SMLibrary (0.2.2):
+  - SMLibrary (0.2.7):
     - Alamofire
     - SwiftLint
   - SwiftLint (0.43.1)
@@ -21,7 +21,7 @@ EXTERNAL SOURCES:
 
 SPEC CHECKSUMS:
   Alamofire: e447a2774a40c996748296fa2c55112fdbbc42f9
-  SMLibrary: 30dcc1aaaa190fcdeb1faec26118d8cc8ab82180
+  SMLibrary: 1180d556221e10a728d61d054a2dc3c2abc36746
   SwiftLint: 99f82d07b837b942dd563c668de129a03fc3fb52
 
 PODFILE CHECKSUM: 0a9abf34081a63cc0b1fa26d4eb752fd1b74b313

@@ -38,7 +38,7 @@ public func ELog(error: Error, file: String = #file, function: String = #functio
     - function: 함수 이름
     - line: 줄 번호
  */
-public func ELog<T>(_ msg: T, file: String = #file, function: String = #function, line: Int = #line) {
+public func ELog<T>(msg: T, file: String = #file, function: String = #function, line: Int = #line) {
     print("🤯\t[\(filename(file))]\t\(function)(\(line)): \(msg)\n")
 }
 

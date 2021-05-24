@@ -52,7 +52,7 @@ public class Mail: NSObject {
     public func sendMail(_ to: [String], subject: String?, message msg: String?) {
         DispatchQueue.global().async {
             guard self.canSendMail() else {
-                ELog("Mail services are not available")
+                ELog(msg: "Mail services are not available")
                 return
             }
             
