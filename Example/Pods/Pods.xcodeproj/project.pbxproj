@@ -384,8 +384,7 @@
 				27F4DB315CAD75176FAEAF4E46BC98A8 /* ReachabilityManager.swift */,
 				C231C7F35C7625D7449C71530C22208E /* Model */,
 			);
-			name = API;
-			path = SMLibrary/Classes/API;
+			path = API;
 			sourceTree = "<group>";
 		};
 		40697239AC892C238C57BE4B23BC9453 /* PushNotification */ = {
@@ -393,8 +392,7 @@
 			children = (
 				0B9CF10C99803C1AB40BF2CBA0219165 /* APNs.swift */,
 			);
-			name = PushNotification;
-			path = SMLibrary/Classes/PushNotification;
+			path = PushNotification;
 			sourceTree = "<group>";
 		};
 		4DA308A5246F650C035DF71733FB8F5D /* Pods-SMLibrary_Tests */ = {
@@ -564,9 +562,7 @@
 		77203F58BAFA8A639DC2F0128013803C /* SMLibrary */ = {
 			isa = PBXGroup;
 			children = (
-				3D5B8F820116256C5779E138CCDDBCC9 /* API */,
-				E60F91DA4AD53C16CB35E3AB5351CBA1 /* Mail */,
-				40697239AC892C238C57BE4B23BC9453 /* PushNotification */,
+				B69D5362265B7A6400292253 /* Function */,
 				8260A5E484C2B47EE5C1AC9E0472D1E1 /* Utils */,
 				709A100172DE3566999F6F33D616B5A1 /* UI */,
 				557D72DE7B6947C33A29FB88E8B9C736 /* Pod */,
@@ -652,6 +648,16 @@
 			path = Model;
 			sourceTree = "<group>";
 		};
+		B69D5362265B7A6400292253 /* Function */ = {
+			isa = PBXGroup;
+			children = (
+				3D5B8F820116256C5779E138CCDDBCC9 /* API */,
+				E60F91DA4AD53C16CB35E3AB5351CBA1 /* Mail */,
+				40697239AC892C238C57BE4B23BC9453 /* PushNotification */,
+			);
+			path = Function;
+			sourceTree = "<group>";
+		};
 		BC8B1ABFA03911A02385CB5BC0202A2C /* Model */ = {
 			isa = PBXGroup;
 			children = (
@@ -707,8 +713,7 @@
 				4FA950ABBDB40790EDC6141C6660FF88 /* Mail.swift */,
 				BC8B1ABFA03911A02385CB5BC0202A2C /* Model */,
 			);
-			name = Mail;
-			path = SMLibrary/Classes/Mail;
+			path = Mail;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
