@@ -70,6 +70,44 @@
 		AE398E7F207E66657200586F8E043DA0 /* SMLibrary-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 61801E4140FEBFA53CB1412D9134C057 /* SMLibrary-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		B69D535F265B577300292253 /* ProgressError.swift in Sources */ = {isa = PBXBuildFile; fileRef = B69D535E265B577300292253 /* ProgressError.swift */; };
 		B69D5361265B6FC700292253 /* ProgressInfo.swift in Sources */ = {isa = PBXBuildFile; fileRef = B69D5360265B6FC700292253 /* ProgressInfo.swift */; };
+		B69D5394265B921F00292253 /* Structs.html in Resources */ = {isa = PBXBuildFile; fileRef = B69D5364265B921E00292253 /* Structs.html */; };
+		B69D5395265B921F00292253 /* Enums.html in Resources */ = {isa = PBXBuildFile; fileRef = B69D5365265B921E00292253 /* Enums.html */; };
+		B69D5396265B921F00292253 /* index.html in Resources */ = {isa = PBXBuildFile; fileRef = B69D5366265B921E00292253 /* index.html */; };
+		B69D5397265B921F00292253 /* Functions.html in Resources */ = {isa = PBXBuildFile; fileRef = B69D5367265B921E00292253 /* Functions.html */; };
+		B69D5398265B921F00292253 /* search.json in Resources */ = {isa = PBXBuildFile; fileRef = B69D5368265B921E00292253 /* search.json */; };
+		B69D5399265B921F00292253 /* highlight.css in Resources */ = {isa = PBXBuildFile; fileRef = B69D536A265B921E00292253 /* highlight.css */; };
+		B69D539A265B921F00292253 /* jazzy.css in Resources */ = {isa = PBXBuildFile; fileRef = B69D536B265B921E00292253 /* jazzy.css */; };
+		B69D539B265B921F00292253 /* APNs.html in Resources */ = {isa = PBXBuildFile; fileRef = B69D536D265B921E00292253 /* APNs.html */; };
+		B69D539C265B921F00292253 /* Mail.html in Resources */ = {isa = PBXBuildFile; fileRef = B69D536E265B921E00292253 /* Mail.html */; };
+		B69D539D265B921F00292253 /* ReachabilityManager.html in Resources */ = {isa = PBXBuildFile; fileRef = B69D536F265B921E00292253 /* ReachabilityManager.html */; };
+		B69D539E265B921F00292253 /* CircleProgress.html in Resources */ = {isa = PBXBuildFile; fileRef = B69D5370265B921E00292253 /* CircleProgress.html */; };
+		B69D539F265B921F00292253 /* Networking.html in Resources */ = {isa = PBXBuildFile; fileRef = B69D5371265B921E00292253 /* Networking.html */; };
+		B69D53A0265B921F00292253 /* jquery.min.js in Resources */ = {isa = PBXBuildFile; fileRef = B69D5373265B921E00292253 /* jquery.min.js */; };
+		B69D53A1265B921F00292253 /* typeahead.jquery.js in Resources */ = {isa = PBXBuildFile; fileRef = B69D5374265B921E00292253 /* typeahead.jquery.js */; };
+		B69D53A2265B921F00292253 /* jazzy.search.js in Resources */ = {isa = PBXBuildFile; fileRef = B69D5375265B921E00292253 /* jazzy.search.js */; };
+		B69D53A3265B921F00292253 /* lunr.min.js in Resources */ = {isa = PBXBuildFile; fileRef = B69D5376265B921E00292253 /* lunr.min.js */; };
+		B69D53A4265B921F00292253 /* jazzy.js in Resources */ = {isa = PBXBuildFile; fileRef = B69D5377265B921E00292253 /* jazzy.js */; };
+		B69D53A5265B921F00292253 /* MailResult.html in Resources */ = {isa = PBXBuildFile; fileRef = B69D5379265B921E00292253 /* MailResult.html */; };
+		B69D53A6265B921F00292253 /* ProgressError.html in Resources */ = {isa = PBXBuildFile; fileRef = B69D537A265B921E00292253 /* ProgressError.html */; };
+		B69D53A7265B921F00292253 /* NetworkError.html in Resources */ = {isa = PBXBuildFile; fileRef = B69D537B265B921E00292253 /* NetworkError.html */; };
+		B69D53A8265B921F00292253 /* ConnectType.html in Resources */ = {isa = PBXBuildFile; fileRef = B69D537D265B921E00292253 /* ConnectType.html */; };
+		B69D53A9265B921F00292253 /* ConnectStatus.html in Resources */ = {isa = PBXBuildFile; fileRef = B69D537E265B921E00292253 /* ConnectStatus.html */; };
+		B69D53AA265B921F00292253 /* Extensions.html in Resources */ = {isa = PBXBuildFile; fileRef = B69D537F265B921E00292253 /* Extensions.html */; };
+		B69D53AB265B921F00292253 /* String.html in Resources */ = {isa = PBXBuildFile; fileRef = B69D5381265B921E00292253 /* String.html */; };
+		B69D53AC265B921F00292253 /* Date.html in Resources */ = {isa = PBXBuildFile; fileRef = B69D5382265B921E00292253 /* Date.html */; };
+		B69D53AD265B921F00292253 /* carat.png in Resources */ = {isa = PBXBuildFile; fileRef = B69D5384265B921E00292253 /* carat.png */; };
+		B69D53AE265B921F00292253 /* dash.png in Resources */ = {isa = PBXBuildFile; fileRef = B69D5385265B921E00292253 /* dash.png */; };
+		B69D53AF265B921F00292253 /* spinner.gif in Resources */ = {isa = PBXBuildFile; fileRef = B69D5386265B921E00292253 /* spinner.gif */; };
+		B69D53B0265B921F00292253 /* gh.png in Resources */ = {isa = PBXBuildFile; fileRef = B69D5387265B921E00292253 /* gh.png */; };
+		B69D53B1265B921F00292253 /* undocumented.json in Resources */ = {isa = PBXBuildFile; fileRef = B69D5388265B921E00292253 /* undocumented.json */; };
+		B69D53B2265B921F00292253 /* badge.svg in Resources */ = {isa = PBXBuildFile; fileRef = B69D5389265B921E00292253 /* badge.svg */; };
+		B69D53B3265B921F00292253 /* ProgressInfo.html in Resources */ = {isa = PBXBuildFile; fileRef = B69D538B265B921E00292253 /* ProgressInfo.html */; };
+		B69D53B4265B921F00292253 /* RequestInfo.html in Resources */ = {isa = PBXBuildFile; fileRef = B69D538C265B921E00292253 /* RequestInfo.html */; };
+		B69D53B5265B921F00292253 /* Classes.html in Resources */ = {isa = PBXBuildFile; fileRef = B69D538D265B921E00292253 /* Classes.html */; };
+		B69D53B6265B921F00292253 /* SMLibrary.tgz in Resources */ = {isa = PBXBuildFile; fileRef = B69D538F265B921E00292253 /* SMLibrary.tgz */; };
+		B69D53B7265B921F00292253 /* SMLibrary.docset in Resources */ = {isa = PBXBuildFile; fileRef = B69D5390265B921E00292253 /* SMLibrary.docset */; };
+		B69D53B8265B921F00292253 /* Protocols.html in Resources */ = {isa = PBXBuildFile; fileRef = B69D5391265B921E00292253 /* Protocols.html */; };
+		B69D53B9265B921F00292253 /* MailDelegate.html in Resources */ = {isa = PBXBuildFile; fileRef = B69D5393265B921E00292253 /* MailDelegate.html */; };
 		B6F88D693724F7271B9F9613D5FEDCDB /* APNs.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0B9CF10C99803C1AB40BF2CBA0219165 /* APNs.swift */; };
 		C1C5B050B55C15103ABC81769551A283 /* Response.swift in Sources */ = {isa = PBXBuildFile; fileRef = 85887252AD278C568768BE62798EBE09 /* Response.swift */; };
 		C1F1DB6A9CBDE584D09BA1613AAD4F9D /* Alamofire.swift in Sources */ = {isa = PBXBuildFile; fileRef = B895CBF9A577B4278C6D81CECCDB000D /* Alamofire.swift */; };
@@ -135,153 +173,127 @@
 		000B12BB0387AF31C33606C6A52007AF /* ConnectStatus.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = ConnectStatus.swift; sourceTree = "<group>"; };
 		01B1D03C99601AA78ECC50D25F8E9A61 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 		0307C3B12EA1458F547F51F794E78CEE /* EventMonitor.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = EventMonitor.swift; path = Source/EventMonitor.swift; sourceTree = "<group>"; };
-		031F169AACA5867E39BD9F60E570802C /* RequestInfo.html */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.html.documentation; name = RequestInfo.html; path = docs/docsets/SMLibrary.docset/Contents/Resources/Documents/Structs/RequestInfo.html; sourceTree = "<group>"; };
 		032CD94BBE2FB85F6FBBC72DCDDAFF22 /* Pods-SMLibrary_Example-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-SMLibrary_Example-Info.plist"; sourceTree = "<group>"; };
-		044D046DF61D59F165F6D65E0E9348A5 /* highlight.css */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.css; name = highlight.css; path = docs/docsets/SMLibrary.docset/Contents/Resources/Documents/css/highlight.css; sourceTree = "<group>"; };
 		050EA3F25ACE762BBB6B8382488A2EA4 /* Pods_SMLibrary_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SMLibrary_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		08A3F45D709F1C1FBD72A90A8BF33882 /* NetworkError.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = NetworkError.swift; sourceTree = "<group>"; };
 		08C8BC128E8E8BB89B69B01878A6FCAC /* RequestTaskMap.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = RequestTaskMap.swift; path = Source/RequestTaskMap.swift; sourceTree = "<group>"; };
-		09684FD3D962BC5666CECF09BD681498 /* String.html */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.html; name = String.html; path = docs/Extensions/String.html; sourceTree = "<group>"; };
 		0B9CF10C99803C1AB40BF2CBA0219165 /* APNs.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = APNs.swift; sourceTree = "<group>"; };
 		0D5D54F0917F56DD35F0867B7C56FE13 /* ServerTrustEvaluation.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ServerTrustEvaluation.swift; path = Source/ServerTrustEvaluation.swift; sourceTree = "<group>"; };
 		0EF1EFD49811F6826EB50E7311B22C26 /* Date+Extension.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = "Date+Extension.swift"; sourceTree = "<group>"; };
-		1301284E1123308A0D8604EB1260FF5E /* typeahead.jquery.js */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.javascript; name = typeahead.jquery.js; path = docs/js/typeahead.jquery.js; sourceTree = "<group>"; };
-		17479A0E55EFEB4E85DDE2A40190C0C6 /* Mail.html */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.html.documentation; name = Mail.html; path = docs/docsets/SMLibrary.docset/Contents/Resources/Documents/Classes/Mail.html; sourceTree = "<group>"; };
 		1776887B98838A094B4B58BEA2901EAA /* Pods-SMLibrary_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-SMLibrary_Tests.modulemap"; sourceTree = "<group>"; };
-		18AF3BCE8C35AA36BAFDAAA83727EBAA /* jquery.min.js */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.javascript; name = jquery.min.js; path = docs/js/jquery.min.js; sourceTree = "<group>"; };
 		19825607CF58BC1D28DFF697A0F82869 /* Pods-SMLibrary_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-SMLibrary_Example-acknowledgements.plist"; sourceTree = "<group>"; };
 		1AC44BC108255F6766BF5383BF088F46 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
 		1C63BB764373B71583EA7DDA65E63B0D /* Pods-SMLibrary_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-SMLibrary_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
-		1C90F53A892ECDDC05997CCD6F9A68D5 /* lunr.min.js */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.javascript; name = lunr.min.js; path = docs/docsets/SMLibrary.docset/Contents/Resources/Documents/js/lunr.min.js; sourceTree = "<group>"; };
-		1D0BAD6D280F6B503ACE57D37C30ADA5 /* Classes.html */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.html.documentation; name = Classes.html; path = docs/docsets/SMLibrary.docset/Contents/Resources/Documents/Classes.html; sourceTree = "<group>"; };
 		1E4539DAECBCD0A8E79BF59BBC18FB59 /* Combine.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Combine.swift; path = Source/Combine.swift; sourceTree = "<group>"; };
 		1F297AEF603911D0E13ED04BA6BD9544 /* Pods-SMLibrary_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-SMLibrary_Example-umbrella.h"; sourceTree = "<group>"; };
 		22245B3949209B7BED8FB4C8BD2FD691 /* SMLibrary.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = SMLibrary.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		25C20010085ACEA536CB5E9FACF0B3A0 /* gh.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = gh.png; path = docs/img/gh.png; sourceTree = "<group>"; };
-		26B6DD3BE29C30DDB026A4854FA2DC84 /* String.html */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.html.documentation; name = String.html; path = docs/docsets/SMLibrary.docset/Contents/Resources/Documents/Extensions/String.html; sourceTree = "<group>"; };
 		27F4DB315CAD75176FAEAF4E46BC98A8 /* ReachabilityManager.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = ReachabilityManager.swift; sourceTree = "<group>"; };
 		2BC93BCD7ADA4B65183E61EAA95A545E /* Pods-SMLibrary_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-SMLibrary_Tests-dummy.m"; sourceTree = "<group>"; };
 		2E8D3C51556600DC2FF16FFA537FF595 /* MailResult.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = MailResult.swift; sourceTree = "<group>"; };
 		306EB6C91319FFB242C4F78BE46E1513 /* Pods-SMLibrary_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-SMLibrary_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
-		3120D759A682244F6081909584ED1762 /* ConnectType.html */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.html.documentation; name = ConnectType.html; path = docs/docsets/SMLibrary.docset/Contents/Resources/Documents/Enums/ConnectStatus/ConnectType.html; sourceTree = "<group>"; };
 		32EB832E594791EC2BB296C4B0D82D24 /* Alamofire-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Alamofire-prefix.pch"; sourceTree = "<group>"; };
-		377BB2C82BE0F819FD30B89643FE8D08 /* search.json */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.json; name = search.json; path = docs/docsets/SMLibrary.docset/Contents/Resources/Documents/search.json; sourceTree = "<group>"; };
 		3952ACF5A00EF05443EC31BCC9DB09F7 /* RedirectHandler.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = RedirectHandler.swift; path = Source/RedirectHandler.swift; sourceTree = "<group>"; };
 		39C24FCFEB11550D10DAABC35FE52399 /* String+Extension.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = "String+Extension.swift"; sourceTree = "<group>"; };
 		3B083F71A05F4C9D88F9BFD402949BBA /* SMLibrary-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "SMLibrary-dummy.m"; sourceTree = "<group>"; };
-		3CCF66A29984436DA90BAF31608883F0 /* Structs.html */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.html; name = Structs.html; path = docs/Structs.html; sourceTree = "<group>"; };
 		3E118A12639BA9B40A27347CC4F4FB5F /* SMLibrary-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "SMLibrary-Info.plist"; sourceTree = "<group>"; };
 		3E961A56A49DBF0CD6404441CD40E6E6 /* Pods-SMLibrary_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-SMLibrary_Tests-umbrella.h"; sourceTree = "<group>"; };
 		3F158CFA8823F6B4229C48AAAA6BF114 /* HTTPMethod.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = HTTPMethod.swift; path = Source/HTTPMethod.swift; sourceTree = "<group>"; };
-		3F87A5988164EF79C1408FC84E24B2E0 /* Mail.html */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.html; name = Mail.html; path = docs/Classes/Mail.html; sourceTree = "<group>"; };
-		3FDED1895CD6F8C6B12C19CA0B517D62 /* RequestInfo.html */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.html; name = RequestInfo.html; path = docs/Structs/RequestInfo.html; sourceTree = "<group>"; };
 		404BF1C428E8A9407AD9DB2CDA4DEB2A /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
-		40FE667DD79447804EF39B34906DAAF9 /* jazzy.css */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.css; name = jazzy.css; path = docs/css/jazzy.css; sourceTree = "<group>"; };
 		4527CECA00890EDAAFCE3135DF7C2EF0 /* SessionDelegate.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SessionDelegate.swift; path = Source/SessionDelegate.swift; sourceTree = "<group>"; };
-		45A7850B81E364872FFEB000411984C5 /* docSet.dsidx */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = file; name = docSet.dsidx; path = docs/docsets/SMLibrary.docset/Contents/Resources/docSet.dsidx; sourceTree = "<group>"; };
-		463FE424B6F7D29C213C5F3D95B13889 /* Extensions.html */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.html.documentation; name = Extensions.html; path = docs/docsets/SMLibrary.docset/Contents/Resources/Documents/Extensions.html; sourceTree = "<group>"; };
 		46DF5588BD2BE4C0B1D09CF20A9D141A /* AuthenticationInterceptor.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = AuthenticationInterceptor.swift; path = Source/AuthenticationInterceptor.swift; sourceTree = "<group>"; };
-		48774176A87B0B120FDC61FB94A66647 /* ConnectType.html */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.html; name = ConnectType.html; path = docs/Enums/ConnectStatus/ConnectType.html; sourceTree = "<group>"; };
 		48B268CB6D36AF5BF26FB289E667EA32 /* MultipartFormData.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = MultipartFormData.swift; path = Source/MultipartFormData.swift; sourceTree = "<group>"; };
 		48B838E52B1E83045A4FBE5F77A82F32 /* HTTPHeaders.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = HTTPHeaders.swift; path = Source/HTTPHeaders.swift; sourceTree = "<group>"; };
-		49093F57D7C56835A7C57C0F723638CD /* Classes.html */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.html; name = Classes.html; path = docs/Classes.html; sourceTree = "<group>"; };
 		4C93D493BB13A6FFB820C2685BFE0BFF /* Logger.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = Logger.swift; sourceTree = "<group>"; };
 		4E42D902E092E0858FBB17F3037DF785 /* URLEncodedFormEncoder.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = URLEncodedFormEncoder.swift; path = Source/URLEncodedFormEncoder.swift; sourceTree = "<group>"; };
-		4E6B603725ECFF8730B4E40D9EE8CB99 /* Functions.html */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.html; name = Functions.html; path = docs/Functions.html; sourceTree = "<group>"; };
-		4F981767B0E003B11F38F482DD9FF751 /* jazzy.js */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.javascript; name = jazzy.js; path = docs/docsets/SMLibrary.docset/Contents/Resources/Documents/js/jazzy.js; sourceTree = "<group>"; };
 		4FA950ABBDB40790EDC6141C6660FF88 /* Mail.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = Mail.swift; sourceTree = "<group>"; };
 		5118C977824E573A4518DDA07320942F /* Pods-SMLibrary_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-SMLibrary_Tests.debug.xcconfig"; sourceTree = "<group>"; };
-		52D5ED8CF0F0B3D162F2730CC9C2DBEC /* lunr.min.js */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.javascript; name = lunr.min.js; path = docs/js/lunr.min.js; sourceTree = "<group>"; };
-		5538F5A4023F8AA27DEE92E0B9867833 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; name = Info.plist; path = docs/docsets/SMLibrary.docset/Contents/Info.plist; sourceTree = "<group>"; };
 		560C75F0F71F8D4AFCA5C891D7484264 /* Pods-SMLibrary_Tests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-SMLibrary_Tests-Info.plist"; sourceTree = "<group>"; };
 		56B74023339844147B9F35DA3A8A5E34 /* URLConvertible+URLRequestConvertible.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "URLConvertible+URLRequestConvertible.swift"; path = "Source/URLConvertible+URLRequestConvertible.swift"; sourceTree = "<group>"; };
-		579E0009E4F50964D3221588F3D28819 /* ConnectStatus.html */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.html; name = ConnectStatus.html; path = docs/Enums/ConnectStatus.html; sourceTree = "<group>"; };
-		59CD91A6137190AA9CD9113CF23F0B6A /* MailDelegate.html */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.html.documentation; name = MailDelegate.html; path = docs/docsets/SMLibrary.docset/Contents/Resources/Documents/Protocols/MailDelegate.html; sourceTree = "<group>"; };
 		5AC2C948312D96C7F596C1B770176DEE /* Alamofire-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Alamofire-dummy.m"; sourceTree = "<group>"; };
 		5D797E9A5C5782CE845840781FA1CC81 /* Alamofire.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Alamofire.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		5D968F0A7EF97410E8F1E9AB6B3B698A /* highlight.css */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.css; name = highlight.css; path = docs/css/highlight.css; sourceTree = "<group>"; };
 		605E55FC70DC0EF599F927FF3613BCDB /* Result+Alamofire.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "Result+Alamofire.swift"; path = "Source/Result+Alamofire.swift"; sourceTree = "<group>"; };
 		60DEE3332806C395597C9F2819E88BD5 /* Alamofire.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = Alamofire.modulemap; sourceTree = "<group>"; };
-		616F6344A285373AA0EA2AB7D5A89463 /* MailResult.html */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.html.documentation; name = MailResult.html; path = docs/docsets/SMLibrary.docset/Contents/Resources/Documents/Enums/MailResult.html; sourceTree = "<group>"; };
 		61801E4140FEBFA53CB1412D9134C057 /* SMLibrary-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "SMLibrary-umbrella.h"; sourceTree = "<group>"; };
 		6194C5DD438A986B7F98819AFEF8248D /* SwiftLint.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = SwiftLint.release.xcconfig; sourceTree = "<group>"; };
-		61CC66560D30F3D156DA78E536AFB321 /* jazzy.search.js */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.javascript; name = jazzy.search.js; path = docs/js/jazzy.search.js; sourceTree = "<group>"; };
-		62B26DAA18D0ED429E9F05694B2B021D /* spinner.gif */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.gif; name = spinner.gif; path = docs/img/spinner.gif; sourceTree = "<group>"; };
 		68F9A2EE62D4AD99FB458A25B4135E1D /* SMLibrary.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = SMLibrary.release.xcconfig; sourceTree = "<group>"; };
 		6ACB66105877C3C7E08C53F1EB333A5A /* Notifications.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Notifications.swift; path = Source/Notifications.swift; sourceTree = "<group>"; };
 		6D2D577296544F0A86ACE1E28E3D1A29 /* Alamofire-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Alamofire-umbrella.h"; sourceTree = "<group>"; };
-		6F8974C20AF72F2F08C4DB322F14E30B /* MailDelegate.html */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.html; name = MailDelegate.html; path = docs/Protocols/MailDelegate.html; sourceTree = "<group>"; };
-		6FE283260039B1937CC11B7F4BA7BCE3 /* Date.html */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.html.documentation; name = Date.html; path = docs/docsets/SMLibrary.docset/Contents/Resources/Documents/Extensions/Date.html; sourceTree = "<group>"; };
 		70C72DEBB8AC487133E2E5D1B7F0290A /* Pods-SMLibrary_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-SMLibrary_Example-dummy.m"; sourceTree = "<group>"; };
-		72E16EF201581A33393A80292CBC5983 /* Extensions.html */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.html; name = Extensions.html; path = docs/Extensions.html; sourceTree = "<group>"; };
-		73F346971FBB3AEA1A1E1A205E16CDF7 /* search.json */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.json; name = search.json; path = docs/search.json; sourceTree = "<group>"; };
-		779D45D899E7C22E0EC27C0CF2C8C52B /* index.html */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.html; name = index.html; path = docs/index.html; sourceTree = "<group>"; };
 		7B78EF1FBCAB99D129444C8A8BECC048 /* SMLibrary.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = SMLibrary.modulemap; sourceTree = "<group>"; };
 		7CE9F7BA11C12C915C531F72AB76240D /* Validation.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Validation.swift; path = Source/Validation.swift; sourceTree = "<group>"; };
 		7D202CA3B771F1783D2914811047735E /* AlamofireExtended.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = AlamofireExtended.swift; path = Source/AlamofireExtended.swift; sourceTree = "<group>"; };
 		83999868ADB14DAF0C867E41DB805BCB /* Alamofire-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Alamofire-Info.plist"; sourceTree = "<group>"; };
-		856EB50D9E2D10840A3CC4920DE6F557 /* Date.html */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.html; name = Date.html; path = docs/Extensions/Date.html; sourceTree = "<group>"; };
 		85887252AD278C568768BE62798EBE09 /* Response.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Response.swift; path = Source/Response.swift; sourceTree = "<group>"; };
-		892E72962CD2C58A00F0896D18D9F85A /* Protocols.html */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.html.documentation; name = Protocols.html; path = docs/docsets/SMLibrary.docset/Contents/Resources/Documents/Protocols.html; sourceTree = "<group>"; };
-		8B8BCD6CD241BC1CAE01877A21B75590 /* MailResult.html */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.html; name = MailResult.html; path = docs/Enums/MailResult.html; sourceTree = "<group>"; };
 		8C841D7E3F1D6FA70741F3007C6287A0 /* SMLibrary-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "SMLibrary-prefix.pch"; sourceTree = "<group>"; };
 		8D39EA30758B5F534BA5067AC4AA7EAD /* SMLibrary.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = SMLibrary.debug.xcconfig; sourceTree = "<group>"; };
-		907327EDD844E22F59D89D52ABF7D0FA /* ConnectStatus.html */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.html.documentation; name = ConnectStatus.html; path = docs/docsets/SMLibrary.docset/Contents/Resources/Documents/Enums/ConnectStatus.html; sourceTree = "<group>"; };
-		92E2E7831195D19C21CD7A50AF8376C5 /* APNs.html */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.html; name = APNs.html; path = docs/Classes/APNs.html; sourceTree = "<group>"; };
-		930B24AC1DF460741B693042331B1255 /* gh.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = gh.png; path = docs/docsets/SMLibrary.docset/Contents/Resources/Documents/img/gh.png; sourceTree = "<group>"; };
-		93DDFAFF3524D298839030DED0FB3004 /* Structs.html */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.html.documentation; name = Structs.html; path = docs/docsets/SMLibrary.docset/Contents/Resources/Documents/Structs.html; sourceTree = "<group>"; };
-		97A6A95A1088C6ED4E6189978B7C0E3B /* typeahead.jquery.js */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.javascript; name = typeahead.jquery.js; path = docs/docsets/SMLibrary.docset/Contents/Resources/Documents/js/typeahead.jquery.js; sourceTree = "<group>"; };
 		993B7A87A57E7BCAB18D158487D66FB3 /* URLRequest+Alamofire.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "URLRequest+Alamofire.swift"; path = "Source/URLRequest+Alamofire.swift"; sourceTree = "<group>"; };
 		9A00F6B195FBEE4271F708322FE65B44 /* Log.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = Log.swift; sourceTree = "<group>"; };
 		9B2B581E41F68E1BAA02C579B887AB79 /* RequestInfo.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = RequestInfo.swift; sourceTree = "<group>"; };
-		9C98C14CB37D7C4AC0FFAD90DCFEA296 /* badge.svg */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = badge.svg; path = docs/badge.svg; sourceTree = "<group>"; };
 		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		A59BF638634ABFEBB7FACAAB06ADCD72 /* SwiftLint.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = SwiftLint.debug.xcconfig; sourceTree = "<group>"; };
-		B2A451A70798E01CA450C1270F03DB94 /* Networking.html */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.html.documentation; name = Networking.html; path = docs/docsets/SMLibrary.docset/Contents/Resources/Documents/Classes/Networking.html; sourceTree = "<group>"; };
 		B5027832763D4231AD648D6BFCD3BC23 /* Alamofire.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = Alamofire.release.xcconfig; sourceTree = "<group>"; };
-		B55E04F5559588690CF3B41F967CFD98 /* Protocols.html */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.html; name = Protocols.html; path = docs/Protocols.html; sourceTree = "<group>"; };
 		B59738219C061673A85E970E6556B386 /* ParameterEncoding.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ParameterEncoding.swift; path = Source/ParameterEncoding.swift; sourceTree = "<group>"; };
 		B69D535E265B577300292253 /* ProgressError.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProgressError.swift; sourceTree = "<group>"; };
 		B69D5360265B6FC700292253 /* ProgressInfo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProgressInfo.swift; sourceTree = "<group>"; };
+		B69D5364265B921E00292253 /* Structs.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = Structs.html; sourceTree = "<group>"; };
+		B69D5365265B921E00292253 /* Enums.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = Enums.html; sourceTree = "<group>"; };
+		B69D5366265B921E00292253 /* index.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = index.html; sourceTree = "<group>"; };
+		B69D5367265B921E00292253 /* Functions.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = Functions.html; sourceTree = "<group>"; };
+		B69D5368265B921E00292253 /* search.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = search.json; sourceTree = "<group>"; };
+		B69D536A265B921E00292253 /* highlight.css */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.css; path = highlight.css; sourceTree = "<group>"; };
+		B69D536B265B921E00292253 /* jazzy.css */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.css; path = jazzy.css; sourceTree = "<group>"; };
+		B69D536D265B921E00292253 /* APNs.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = APNs.html; sourceTree = "<group>"; };
+		B69D536E265B921E00292253 /* Mail.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = Mail.html; sourceTree = "<group>"; };
+		B69D536F265B921E00292253 /* ReachabilityManager.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = ReachabilityManager.html; sourceTree = "<group>"; };
+		B69D5370265B921E00292253 /* CircleProgress.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = CircleProgress.html; sourceTree = "<group>"; };
+		B69D5371265B921E00292253 /* Networking.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = Networking.html; sourceTree = "<group>"; };
+		B69D5373265B921E00292253 /* jquery.min.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; path = jquery.min.js; sourceTree = "<group>"; };
+		B69D5374265B921E00292253 /* typeahead.jquery.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; path = typeahead.jquery.js; sourceTree = "<group>"; };
+		B69D5375265B921E00292253 /* jazzy.search.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; path = jazzy.search.js; sourceTree = "<group>"; };
+		B69D5376265B921E00292253 /* lunr.min.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; path = lunr.min.js; sourceTree = "<group>"; };
+		B69D5377265B921E00292253 /* jazzy.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; path = jazzy.js; sourceTree = "<group>"; };
+		B69D5379265B921E00292253 /* MailResult.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = MailResult.html; sourceTree = "<group>"; };
+		B69D537A265B921E00292253 /* ProgressError.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = ProgressError.html; sourceTree = "<group>"; };
+		B69D537B265B921E00292253 /* NetworkError.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = NetworkError.html; sourceTree = "<group>"; };
+		B69D537D265B921E00292253 /* ConnectType.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = ConnectType.html; sourceTree = "<group>"; };
+		B69D537E265B921E00292253 /* ConnectStatus.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = ConnectStatus.html; sourceTree = "<group>"; };
+		B69D537F265B921E00292253 /* Extensions.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = Extensions.html; sourceTree = "<group>"; };
+		B69D5381265B921E00292253 /* String.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = String.html; sourceTree = "<group>"; };
+		B69D5382265B921E00292253 /* Date.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = Date.html; sourceTree = "<group>"; };
+		B69D5384265B921E00292253 /* carat.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = carat.png; sourceTree = "<group>"; };
+		B69D5385265B921E00292253 /* dash.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = dash.png; sourceTree = "<group>"; };
+		B69D5386265B921E00292253 /* spinner.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = spinner.gif; sourceTree = "<group>"; };
+		B69D5387265B921E00292253 /* gh.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = gh.png; sourceTree = "<group>"; };
+		B69D5388265B921E00292253 /* undocumented.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = undocumented.json; sourceTree = "<group>"; };
+		B69D5389265B921E00292253 /* badge.svg */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = badge.svg; sourceTree = "<group>"; };
+		B69D538B265B921E00292253 /* ProgressInfo.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = ProgressInfo.html; sourceTree = "<group>"; };
+		B69D538C265B921E00292253 /* RequestInfo.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = RequestInfo.html; sourceTree = "<group>"; };
+		B69D538D265B921E00292253 /* Classes.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = Classes.html; sourceTree = "<group>"; };
+		B69D538F265B921E00292253 /* SMLibrary.tgz */ = {isa = PBXFileReference; lastKnownFileType = file; path = SMLibrary.tgz; sourceTree = "<group>"; };
+		B69D5390265B921E00292253 /* SMLibrary.docset */ = {isa = PBXFileReference; lastKnownFileType = wrapper; path = SMLibrary.docset; sourceTree = "<group>"; };
+		B69D5391265B921E00292253 /* Protocols.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = Protocols.html; sourceTree = "<group>"; };
+		B69D5393265B921E00292253 /* MailDelegate.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = MailDelegate.html; sourceTree = "<group>"; };
 		B895CBF9A577B4278C6D81CECCDB000D /* Alamofire.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Alamofire.swift; path = Source/Alamofire.swift; sourceTree = "<group>"; };
 		B8C8E537E98365CF008AF55E7F58457C /* Session.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Session.swift; path = Source/Session.swift; sourceTree = "<group>"; };
-		B8DA938115A0A960B36234053D1F7784 /* dash.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = dash.png; path = docs/img/dash.png; sourceTree = "<group>"; };
 		B9196922EF7A01126C9252E191308FCF /* Pods-SMLibrary_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-SMLibrary_Tests.release.xcconfig"; sourceTree = "<group>"; };
 		B923B92927641D52CF5E89F1EED8F12A /* AFError.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = AFError.swift; path = Source/AFError.swift; sourceTree = "<group>"; };
 		BC1990899E493F965E04F5DFE597A891 /* Pods-SMLibrary_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-SMLibrary_Example.modulemap"; sourceTree = "<group>"; };
-		BCDF221F61F0A78344C2E588F647A8D9 /* ReachabilityManager.html */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.html; name = ReachabilityManager.html; path = docs/Classes/ReachabilityManager.html; sourceTree = "<group>"; };
-		BE4964EAAD83F44F72CCEDF3F86F1253 /* NetworkError.html */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.html.documentation; name = NetworkError.html; path = docs/docsets/SMLibrary.docset/Contents/Resources/Documents/Enums/NetworkError.html; sourceTree = "<group>"; };
-		BE4E2C8988D1DFA5B15B17850C6D8DF4 /* carat.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = carat.png; path = docs/img/carat.png; sourceTree = "<group>"; };
-		BF85C169FA6E89474153E231AB03844A /* undocumented.json */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.json; name = undocumented.json; path = docs/undocumented.json; sourceTree = "<group>"; };
 		C1615E1FA68C09F9971FB26DF9B7D2BC /* CFNetwork.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CFNetwork.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.0.sdk/System/Library/Frameworks/CFNetwork.framework; sourceTree = DEVELOPER_DIR; };
 		C31D1230D5BDAA323A443A62502E1F0F /* CachedResponseHandler.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = CachedResponseHandler.swift; path = Source/CachedResponseHandler.swift; sourceTree = "<group>"; };
 		C42D000F7A2BB57722D30C31B77F937D /* OperationQueue+Alamofire.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "OperationQueue+Alamofire.swift"; path = "Source/OperationQueue+Alamofire.swift"; sourceTree = "<group>"; };
 		C50CFEC3AF5C56DA28842779B34F6C07 /* Request.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Request.swift; path = Source/Request.swift; sourceTree = "<group>"; };
 		C881A6F5EE4245A1A83E1AC8585992BA /* DispatchQueue+Alamofire.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "DispatchQueue+Alamofire.swift"; path = "Source/DispatchQueue+Alamofire.swift"; sourceTree = "<group>"; };
-		CBAF6DA241F1E95D7340A1C4F21FB7F2 /* NetworkError.html */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.html; name = NetworkError.html; path = docs/Enums/NetworkError.html; sourceTree = "<group>"; };
-		CD7CC153C72EB6D44ACB60643AB9A317 /* index.html */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.html.documentation; name = index.html; path = docs/docsets/SMLibrary.docset/Contents/Resources/Documents/index.html; sourceTree = "<group>"; };
 		CDACD97D6B4986BC794C55B296D4DEDB /* MultipartUpload.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = MultipartUpload.swift; path = Source/MultipartUpload.swift; sourceTree = "<group>"; };
-		CE05592DE2C233C0183D0895239EC291 /* Networking.html */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.html; name = Networking.html; path = docs/Classes/Networking.html; sourceTree = "<group>"; };
 		D0FF301302A2A77E95697F2B5692FA5E /* Alamofire.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Alamofire.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		D16349E3C9E6DC88432E6AB0230582C9 /* Pods-SMLibrary_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-SMLibrary_Example-frameworks.sh"; sourceTree = "<group>"; };
-		D36F3ADBED81D1B7BE836BBF757FB20D /* Enums.html */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.html.documentation; name = Enums.html; path = docs/docsets/SMLibrary.docset/Contents/Resources/Documents/Enums.html; sourceTree = "<group>"; };
 		D67594CE4B7037531909DFDE6ECB1C55 /* Pods_SMLibrary_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SMLibrary_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		D7810D81DA5276DBBB85A7C73BDDD4DC /* Alamofire.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = Alamofire.debug.xcconfig; sourceTree = "<group>"; };
-		DA3AEAAA69A7ED3D2E07ACA76A7EC3B5 /* dash.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = dash.png; path = docs/docsets/SMLibrary.docset/Contents/Resources/Documents/img/dash.png; sourceTree = "<group>"; };
-		DA5930D08CB248800771278CDA7E6434 /* SMLibrary.tgz */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = file; name = SMLibrary.tgz; path = docs/docsets/SMLibrary.tgz; sourceTree = "<group>"; };
-		DB5CF79DC4619D0448394F647A379C06 /* APNs.html */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.html.documentation; name = APNs.html; path = docs/docsets/SMLibrary.docset/Contents/Resources/Documents/Classes/APNs.html; sourceTree = "<group>"; };
-		DDF740C62115034A9E47CA34CA5F5993 /* jazzy.search.js */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.javascript; name = jazzy.search.js; path = docs/docsets/SMLibrary.docset/Contents/Resources/Documents/js/jazzy.search.js; sourceTree = "<group>"; };
 		DE00AC02D01AC0679B7CB6A735E1DEF0 /* RequestInterceptor.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = RequestInterceptor.swift; path = Source/RequestInterceptor.swift; sourceTree = "<group>"; };
 		DE085C3B44C83EB0CCDDDB5A56EA12B2 /* Protected.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Protected.swift; path = Source/Protected.swift; sourceTree = "<group>"; };
 		DE39EAC3DDA0607F47A635A2EBBD45FA /* StringEncoding+Alamofire.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "StringEncoding+Alamofire.swift"; path = "Source/StringEncoding+Alamofire.swift"; sourceTree = "<group>"; };
 		E145023B39BFA0165323C69082982060 /* NetworkReachabilityManager.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = NetworkReachabilityManager.swift; path = Source/NetworkReachabilityManager.swift; sourceTree = "<group>"; };
 		E15DE97DBEA3A2631CFC5210292408A8 /* RetryPolicy.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = RetryPolicy.swift; path = Source/RetryPolicy.swift; sourceTree = "<group>"; };
 		E1811C327B554C26C06A4085844B72E2 /* URLSessionConfiguration+Alamofire.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "URLSessionConfiguration+Alamofire.swift"; path = "Source/URLSessionConfiguration+Alamofire.swift"; sourceTree = "<group>"; };
-		E2886B535D7A114D398D5E97DDB5771F /* jazzy.js */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.javascript; name = jazzy.js; path = docs/js/jazzy.js; sourceTree = "<group>"; };
-		E4CA20D0109D5629FD5310ADC1E9F9F9 /* ReachabilityManager.html */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.html.documentation; name = ReachabilityManager.html; path = docs/docsets/SMLibrary.docset/Contents/Resources/Documents/Classes/ReachabilityManager.html; sourceTree = "<group>"; };
-		E5D53C8D8F8E3F7787B35BBAB887F609 /* spinner.gif */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.gif; name = spinner.gif; path = docs/docsets/SMLibrary.docset/Contents/Resources/Documents/img/spinner.gif; sourceTree = "<group>"; };
-		E9889DFC41E2378D7A2C1F58E0EB26EA /* carat.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = carat.png; path = docs/docsets/SMLibrary.docset/Contents/Resources/Documents/img/carat.png; sourceTree = "<group>"; };
-		EED7ED410B5111F5ADB77A020F231A50 /* Enums.html */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.html; name = Enums.html; path = docs/Enums.html; sourceTree = "<group>"; };
 		EFB2E392B79C8EBA8C9FB901EA94D783 /* CircleProgress.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = CircleProgress.swift; sourceTree = "<group>"; };
 		F20428F690814BEE027AA9C869BC3F78 /* ResponseSerialization.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ResponseSerialization.swift; path = Source/ResponseSerialization.swift; sourceTree = "<group>"; };
 		F479F31C79CBC10087E6B373109F8F26 /* ParameterEncoder.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ParameterEncoder.swift; path = Source/ParameterEncoder.swift; sourceTree = "<group>"; };
@@ -289,9 +301,6 @@
 		F720B62883DA1D1CB8B248E1515013E7 /* Pods-SMLibrary_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-SMLibrary_Example.debug.xcconfig"; sourceTree = "<group>"; };
 		F794D3A6A8A45A9D637CDB7247B87969 /* Networking.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = Networking.swift; sourceTree = "<group>"; };
 		F7C03D44DF79ABD12B243F9E9B9134EE /* SMLibrary.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; path = SMLibrary.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
-		F9E838FF7D91C5CA823C963E953ADD75 /* Functions.html */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.html.documentation; name = Functions.html; path = docs/docsets/SMLibrary.docset/Contents/Resources/Documents/Functions.html; sourceTree = "<group>"; };
-		FC3275F70DA53FE2987DD8ECF7F804BF /* jquery.min.js */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.javascript; name = jquery.min.js; path = docs/docsets/SMLibrary.docset/Contents/Resources/Documents/js/jquery.min.js; sourceTree = "<group>"; };
-		FE6EB597F65A55B1CA096EFE26389B68 /* jazzy.css */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.css; name = jazzy.css; path = docs/docsets/SMLibrary.docset/Contents/Resources/Documents/css/jazzy.css; sourceTree = "<group>"; };
 		FFFDA4656B4FD9B93C83526AC260CD8A /* Pods-SMLibrary_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-SMLibrary_Example.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -422,76 +431,9 @@
 		557D72DE7B6947C33A29FB88E8B9C736 /* Pod */ = {
 			isa = PBXGroup;
 			children = (
-				92E2E7831195D19C21CD7A50AF8376C5 /* APNs.html */,
-				DB5CF79DC4619D0448394F647A379C06 /* APNs.html */,
-				9C98C14CB37D7C4AC0FFAD90DCFEA296 /* badge.svg */,
-				BE4E2C8988D1DFA5B15B17850C6D8DF4 /* carat.png */,
-				E9889DFC41E2378D7A2C1F58E0EB26EA /* carat.png */,
-				49093F57D7C56835A7C57C0F723638CD /* Classes.html */,
-				1D0BAD6D280F6B503ACE57D37C30ADA5 /* Classes.html */,
-				579E0009E4F50964D3221588F3D28819 /* ConnectStatus.html */,
-				907327EDD844E22F59D89D52ABF7D0FA /* ConnectStatus.html */,
-				3120D759A682244F6081909584ED1762 /* ConnectType.html */,
-				48774176A87B0B120FDC61FB94A66647 /* ConnectType.html */,
-				DA3AEAAA69A7ED3D2E07ACA76A7EC3B5 /* dash.png */,
-				B8DA938115A0A960B36234053D1F7784 /* dash.png */,
-				856EB50D9E2D10840A3CC4920DE6F557 /* Date.html */,
-				6FE283260039B1937CC11B7F4BA7BCE3 /* Date.html */,
-				45A7850B81E364872FFEB000411984C5 /* docSet.dsidx */,
-				EED7ED410B5111F5ADB77A020F231A50 /* Enums.html */,
-				D36F3ADBED81D1B7BE836BBF757FB20D /* Enums.html */,
-				72E16EF201581A33393A80292CBC5983 /* Extensions.html */,
-				463FE424B6F7D29C213C5F3D95B13889 /* Extensions.html */,
-				4E6B603725ECFF8730B4E40D9EE8CB99 /* Functions.html */,
-				F9E838FF7D91C5CA823C963E953ADD75 /* Functions.html */,
-				930B24AC1DF460741B693042331B1255 /* gh.png */,
-				25C20010085ACEA536CB5E9FACF0B3A0 /* gh.png */,
-				044D046DF61D59F165F6D65E0E9348A5 /* highlight.css */,
-				5D968F0A7EF97410E8F1E9AB6B3B698A /* highlight.css */,
-				CD7CC153C72EB6D44ACB60643AB9A317 /* index.html */,
-				779D45D899E7C22E0EC27C0CF2C8C52B /* index.html */,
-				5538F5A4023F8AA27DEE92E0B9867833 /* Info.plist */,
-				FE6EB597F65A55B1CA096EFE26389B68 /* jazzy.css */,
-				40FE667DD79447804EF39B34906DAAF9 /* jazzy.css */,
-				4F981767B0E003B11F38F482DD9FF751 /* jazzy.js */,
-				E2886B535D7A114D398D5E97DDB5771F /* jazzy.js */,
-				61CC66560D30F3D156DA78E536AFB321 /* jazzy.search.js */,
-				DDF740C62115034A9E47CA34CA5F5993 /* jazzy.search.js */,
-				FC3275F70DA53FE2987DD8ECF7F804BF /* jquery.min.js */,
-				18AF3BCE8C35AA36BAFDAAA83727EBAA /* jquery.min.js */,
 				404BF1C428E8A9407AD9DB2CDA4DEB2A /* LICENSE */,
-				52D5ED8CF0F0B3D162F2730CC9C2DBEC /* lunr.min.js */,
-				1C90F53A892ECDDC05997CCD6F9A68D5 /* lunr.min.js */,
-				3F87A5988164EF79C1408FC84E24B2E0 /* Mail.html */,
-				17479A0E55EFEB4E85DDE2A40190C0C6 /* Mail.html */,
-				59CD91A6137190AA9CD9113CF23F0B6A /* MailDelegate.html */,
-				6F8974C20AF72F2F08C4DB322F14E30B /* MailDelegate.html */,
-				8B8BCD6CD241BC1CAE01877A21B75590 /* MailResult.html */,
-				616F6344A285373AA0EA2AB7D5A89463 /* MailResult.html */,
-				BE4964EAAD83F44F72CCEDF3F86F1253 /* NetworkError.html */,
-				CBAF6DA241F1E95D7340A1C4F21FB7F2 /* NetworkError.html */,
-				CE05592DE2C233C0183D0895239EC291 /* Networking.html */,
-				B2A451A70798E01CA450C1270F03DB94 /* Networking.html */,
-				892E72962CD2C58A00F0896D18D9F85A /* Protocols.html */,
-				B55E04F5559588690CF3B41F967CFD98 /* Protocols.html */,
-				E4CA20D0109D5629FD5310ADC1E9F9F9 /* ReachabilityManager.html */,
-				BCDF221F61F0A78344C2E588F647A8D9 /* ReachabilityManager.html */,
 				01B1D03C99601AA78ECC50D25F8E9A61 /* README.md */,
-				3FDED1895CD6F8C6B12C19CA0B517D62 /* RequestInfo.html */,
-				031F169AACA5867E39BD9F60E570802C /* RequestInfo.html */,
-				73F346971FBB3AEA1A1E1A205E16CDF7 /* search.json */,
-				377BB2C82BE0F819FD30B89643FE8D08 /* search.json */,
 				F7C03D44DF79ABD12B243F9E9B9134EE /* SMLibrary.podspec */,
-				DA5930D08CB248800771278CDA7E6434 /* SMLibrary.tgz */,
-				E5D53C8D8F8E3F7787B35BBAB887F609 /* spinner.gif */,
-				62B26DAA18D0ED429E9F05694B2B021D /* spinner.gif */,
-				09684FD3D962BC5666CECF09BD681498 /* String.html */,
-				26B6DD3BE29C30DDB026A4854FA2DC84 /* String.html */,
-				3CCF66A29984436DA90BAF31608883F0 /* Structs.html */,
-				93DDFAFF3524D298839030DED0FB3004 /* Structs.html */,
-				97A6A95A1088C6ED4E6189978B7C0E3B /* typeahead.jquery.js */,
-				1301284E1123308A0D8604EB1260FF5E /* typeahead.jquery.js */,
-				BF85C169FA6E89474153E231AB03844A /* undocumented.json */,
 			);
 			name = Pod;
 			sourceTree = "<group>";
@@ -562,6 +504,7 @@
 		77203F58BAFA8A639DC2F0128013803C /* SMLibrary */ = {
 			isa = PBXGroup;
 			children = (
+				B69D5363265B921E00292253 /* docs */,
 				B69D5362265B7A6400292253 /* Function */,
 				8260A5E484C2B47EE5C1AC9E0472D1E1 /* Utils */,
 				709A100172DE3566999F6F33D616B5A1 /* UI */,
@@ -657,6 +600,131 @@
 			);
 			name = Function;
 			path = SMLibrary/Classes/Function;
+			sourceTree = "<group>";
+		};
+		B69D5363265B921E00292253 /* docs */ = {
+			isa = PBXGroup;
+			children = (
+				B69D5364265B921E00292253 /* Structs.html */,
+				B69D5365265B921E00292253 /* Enums.html */,
+				B69D5366265B921E00292253 /* index.html */,
+				B69D5367265B921E00292253 /* Functions.html */,
+				B69D5368265B921E00292253 /* search.json */,
+				B69D5369265B921E00292253 /* css */,
+				B69D536C265B921E00292253 /* Classes */,
+				B69D5372265B921E00292253 /* js */,
+				B69D5378265B921E00292253 /* Enums */,
+				B69D537F265B921E00292253 /* Extensions.html */,
+				B69D5380265B921E00292253 /* Extensions */,
+				B69D5383265B921E00292253 /* img */,
+				B69D5388265B921E00292253 /* undocumented.json */,
+				B69D5389265B921E00292253 /* badge.svg */,
+				B69D538A265B921E00292253 /* Structs */,
+				B69D538D265B921E00292253 /* Classes.html */,
+				B69D538E265B921E00292253 /* docsets */,
+				B69D5391265B921E00292253 /* Protocols.html */,
+				B69D5392265B921E00292253 /* Protocols */,
+			);
+			path = docs;
+			sourceTree = "<group>";
+		};
+		B69D5369265B921E00292253 /* css */ = {
+			isa = PBXGroup;
+			children = (
+				B69D536A265B921E00292253 /* highlight.css */,
+				B69D536B265B921E00292253 /* jazzy.css */,
+			);
+			path = css;
+			sourceTree = "<group>";
+		};
+		B69D536C265B921E00292253 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				B69D536D265B921E00292253 /* APNs.html */,
+				B69D536E265B921E00292253 /* Mail.html */,
+				B69D536F265B921E00292253 /* ReachabilityManager.html */,
+				B69D5370265B921E00292253 /* CircleProgress.html */,
+				B69D5371265B921E00292253 /* Networking.html */,
+			);
+			path = Classes;
+			sourceTree = "<group>";
+		};
+		B69D5372265B921E00292253 /* js */ = {
+			isa = PBXGroup;
+			children = (
+				B69D5373265B921E00292253 /* jquery.min.js */,
+				B69D5374265B921E00292253 /* typeahead.jquery.js */,
+				B69D5375265B921E00292253 /* jazzy.search.js */,
+				B69D5376265B921E00292253 /* lunr.min.js */,
+				B69D5377265B921E00292253 /* jazzy.js */,
+			);
+			path = js;
+			sourceTree = "<group>";
+		};
+		B69D5378265B921E00292253 /* Enums */ = {
+			isa = PBXGroup;
+			children = (
+				B69D5379265B921E00292253 /* MailResult.html */,
+				B69D537A265B921E00292253 /* ProgressError.html */,
+				B69D537B265B921E00292253 /* NetworkError.html */,
+				B69D537C265B921E00292253 /* ConnectStatus */,
+				B69D537E265B921E00292253 /* ConnectStatus.html */,
+			);
+			path = Enums;
+			sourceTree = "<group>";
+		};
+		B69D537C265B921E00292253 /* ConnectStatus */ = {
+			isa = PBXGroup;
+			children = (
+				B69D537D265B921E00292253 /* ConnectType.html */,
+			);
+			path = ConnectStatus;
+			sourceTree = "<group>";
+		};
+		B69D5380265B921E00292253 /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				B69D5381265B921E00292253 /* String.html */,
+				B69D5382265B921E00292253 /* Date.html */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+		B69D5383265B921E00292253 /* img */ = {
+			isa = PBXGroup;
+			children = (
+				B69D5384265B921E00292253 /* carat.png */,
+				B69D5385265B921E00292253 /* dash.png */,
+				B69D5386265B921E00292253 /* spinner.gif */,
+				B69D5387265B921E00292253 /* gh.png */,
+			);
+			path = img;
+			sourceTree = "<group>";
+		};
+		B69D538A265B921E00292253 /* Structs */ = {
+			isa = PBXGroup;
+			children = (
+				B69D538B265B921E00292253 /* ProgressInfo.html */,
+				B69D538C265B921E00292253 /* RequestInfo.html */,
+			);
+			path = Structs;
+			sourceTree = "<group>";
+		};
+		B69D538E265B921E00292253 /* docsets */ = {
+			isa = PBXGroup;
+			children = (
+				B69D538F265B921E00292253 /* SMLibrary.tgz */,
+				B69D5390265B921E00292253 /* SMLibrary.docset */,
+			);
+			path = docsets;
+			sourceTree = "<group>";
+		};
+		B69D5392265B921E00292253 /* Protocols */ = {
+			isa = PBXGroup;
+			children = (
+				B69D5393265B921E00292253 /* MailDelegate.html */,
+			);
+			path = Protocols;
 			sourceTree = "<group>";
 		};
 		BC8B1ABFA03911A02385CB5BC0202A2C /* Model */ = {
@@ -883,6 +951,44 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B69D53A7265B921F00292253 /* NetworkError.html in Resources */,
+				B69D53AC265B921F00292253 /* Date.html in Resources */,
+				B69D53B4265B921F00292253 /* RequestInfo.html in Resources */,
+				B69D53AE265B921F00292253 /* dash.png in Resources */,
+				B69D539A265B921F00292253 /* jazzy.css in Resources */,
+				B69D53B1265B921F00292253 /* undocumented.json in Resources */,
+				B69D5399265B921F00292253 /* highlight.css in Resources */,
+				B69D53A5265B921F00292253 /* MailResult.html in Resources */,
+				B69D539F265B921F00292253 /* Networking.html in Resources */,
+				B69D53AB265B921F00292253 /* String.html in Resources */,
+				B69D5396265B921F00292253 /* index.html in Resources */,
+				B69D539E265B921F00292253 /* CircleProgress.html in Resources */,
+				B69D53AA265B921F00292253 /* Extensions.html in Resources */,
+				B69D53B7265B921F00292253 /* SMLibrary.docset in Resources */,
+				B69D53A9265B921F00292253 /* ConnectStatus.html in Resources */,
+				B69D539D265B921F00292253 /* ReachabilityManager.html in Resources */,
+				B69D5394265B921F00292253 /* Structs.html in Resources */,
+				B69D53A1265B921F00292253 /* typeahead.jquery.js in Resources */,
+				B69D53B8265B921F00292253 /* Protocols.html in Resources */,
+				B69D5398265B921F00292253 /* search.json in Resources */,
+				B69D53B6265B921F00292253 /* SMLibrary.tgz in Resources */,
+				B69D53A6265B921F00292253 /* ProgressError.html in Resources */,
+				B69D53B5265B921F00292253 /* Classes.html in Resources */,
+				B69D53A3265B921F00292253 /* lunr.min.js in Resources */,
+				B69D5397265B921F00292253 /* Functions.html in Resources */,
+				B69D539B265B921F00292253 /* APNs.html in Resources */,
+				B69D53B3265B921F00292253 /* ProgressInfo.html in Resources */,
+				B69D53B0265B921F00292253 /* gh.png in Resources */,
+				B69D53B2265B921F00292253 /* badge.svg in Resources */,
+				B69D53A4265B921F00292253 /* jazzy.js in Resources */,
+				B69D53A8265B921F00292253 /* ConnectType.html in Resources */,
+				B69D539C265B921F00292253 /* Mail.html in Resources */,
+				B69D53B9265B921F00292253 /* MailDelegate.html in Resources */,
+				B69D53A0265B921F00292253 /* jquery.min.js in Resources */,
+				B69D53AD265B921F00292253 /* carat.png in Resources */,
+				B69D53A2265B921F00292253 /* jazzy.search.js in Resources */,
+				B69D53AF265B921F00292253 /* spinner.gif in Resources */,
+				B69D5395265B921F00292253 /* Enums.html in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
