@@ -18,6 +18,11 @@ public class CircleProgress: UIView {
     /// 배경 progress 정보
     private var guidInfo: ProgressInfo?
     
+    /**
+     draw
+     
+     - Parameter rect: [CGRect](https://developer.apple.com/documentation/coregraphics/cgrect)
+     */
     public override func draw(_ rect: CGRect) {
         guard let pInfo = self.progressInfo else {
             ELog(error: ProgressError.valueNill)

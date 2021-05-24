@@ -25,7 +25,7 @@ public struct ProgressInfo {
      - Parameters:
         - color: 색상
         - style: 선 끝점 스타일
-        - width: 선 굵이
+        - width: 선 굵기
      */
     public init(color: UIColor = .clear, style: CGLineCap = .round, width: CGFloat = 1) {
         self.linecolor = color

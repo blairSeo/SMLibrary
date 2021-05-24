@@ -6,10 +6,15 @@
 
 import Foundation
 
+/// Progress 에러
 public enum ProgressError: LocalizedError {
+    /// 값이 nil일 경우
     case valueNill
+    
+    /// progress의 값이 범위를 벗어날 경우
     case outRangeProgress
     
+    /// 설명
     public var errorDescription: String? {
         get {
             switch self {
