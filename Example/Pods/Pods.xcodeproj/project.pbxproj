@@ -655,7 +655,8 @@
 				E60F91DA4AD53C16CB35E3AB5351CBA1 /* Mail */,
 				40697239AC892C238C57BE4B23BC9453 /* PushNotification */,
 			);
-			path = Function;
+			name = Function;
+			path = SMLibrary/Classes/Function;
 			sourceTree = "<group>";
 		};
 		BC8B1ABFA03911A02385CB5BC0202A2C /* Model */ = {
