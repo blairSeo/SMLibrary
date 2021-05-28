@@ -8,8 +8,13 @@
 
 ## Features
 
-[Documentation](https://blairseo.github.io/SMLibrary/)
-
+- [x] REST API 질의
+  - [x] 네트워크 상태 조회
+- [x] 메일 전송
+- [x] APNs(Apple Push Notification Service) 등록 / 수신
+- [x] Date, String의 Extension
+- [x] 원형 Progress bar
+- [x] [Documentation](https://blairseo.github.io/SMLibrary/)
 
 ## Installation
 
@@ -19,6 +24,7 @@ it, simply add the following line to your Podfile:
 ```ruby
 pod 'SMLibrary'
 ```
+
 And then run:
 
 ```ruby
@@ -30,6 +36,7 @@ And installing the cocoapod into your project import SMLibrary with
 ```swift
 import SMLibrary 
 ```
+
 ## Author
 
 blairSeo, blair.seo.0223@gmail.com
